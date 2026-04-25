@@ -17,7 +17,6 @@ The objective of this project is to train and evaluate a convolutional neural ne
 
 The workflow includes:
 
-- downloading and extracting the weather image dataset
 - detecting image classes from folder names
 - preprocessing and resizing images
 - applying stratified train-test splitting
@@ -29,17 +28,11 @@ The workflow includes:
 ```text
 .
 ├── README.md
-├── weather_cnn_task1.py
-└── weather_cnn_task1.ipynb
+├── weather_cnn_task.py
+└── weather_cnn_task.ipynb
 ```
 
 ## Dataset
-
-The dataset is downloaded automatically in the Python script and notebook from:
-
-```text
-http://www.kasprowski.pl/datasets/weather.zip
-```
 
 The dataset contains four weather classes:
 
